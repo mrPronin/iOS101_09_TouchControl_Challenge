@@ -55,9 +55,15 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    //var razeware = [ray, vicki, mic, sam, christine]
+    let razeware = [ray, vicki, mic, sam, christine]
     heights = [rayHeight, vickiHeight, micHeight, samHeight, christineHeight]
-    widths = [rayWidth, vickiWidth, micWidth, samHeight, christineWidth]
+    widths = [rayWidth, vickiWidth, micWidth, samWidth, christineWidth]
+    for image in razeware {
+      let gestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("tappedImage:"))
+      image.userInteractionEnabled = true
+      image.gestureRecognizers = [gestureRecognizer]
+      
+    }
 
   }
 

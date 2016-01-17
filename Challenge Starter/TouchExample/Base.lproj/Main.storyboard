@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -45,18 +45,18 @@
                                             <constraint firstAttribute="height" constant="50" id="o9w-sU-hd4"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="christine.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qdB-L7-L9U">
-                                        <rect key="frame" x="238" y="0.0" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="1xR-l2-YQT"/>
-                                            <constraint firstAttribute="width" constant="50" id="P3w-I2-8G3"/>
-                                        </constraints>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dmU-Lt-VYl" userLabel="Mic">
                                         <rect key="frame" x="119" y="0.0" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="Rz3-7l-cYd"/>
                                             <constraint firstAttribute="height" constant="50" id="Wns-Lk-eH2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="christine.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qdB-L7-L9U">
+                                        <rect key="frame" x="238" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1xR-l2-YQT"/>
+                                            <constraint firstAttribute="width" constant="50" id="P3w-I2-8G3"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -116,10 +116,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="bio" destination="ziG-Lg-a9N" id="se9-5a-ihZ"/>
-                        <outlet property="christine" destination="qdB-L7-L9U" id="QcC-Oq-dW6"/>
-                        <outlet property="christineHeight" destination="1xR-l2-YQT" id="RtF-TV-Dj0"/>
-                        <outlet property="christineWidth" destination="P3w-I2-8G3" id="ijh-Vc-vX7"/>
+                        <outlet property="bio" destination="ziG-Lg-a9N" id="hKa-no-gZC"/>
+                        <outlet property="christine" destination="qdB-L7-L9U" id="I4U-iJ-yQM"/>
+                        <outlet property="christineHeight" destination="1xR-l2-YQT" id="Act-kp-sx1"/>
+                        <outlet property="christineWidth" destination="P3w-I2-8G3" id="Drl-Fs-hTF"/>
                         <outlet property="emailButton" destination="ZWl-6x-eIT" id="btD-HP-NkD"/>
                         <outlet property="mic" destination="dmU-Lt-VYl" id="C7r-Yv-ex1"/>
                         <outlet property="micHeight" destination="Wns-Lk-eH2" id="yDi-UP-5G2"/>

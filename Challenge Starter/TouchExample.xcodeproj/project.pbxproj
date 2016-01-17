@@ -17,9 +17,8 @@
 		CFDA4E031A7160E9001A8D3E /* mic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFDA4DFD1A7160E9001A8D3E /* mic.jpg */; };
 		CFDA4E041A7160E9001A8D3E /* brian.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDA4DFE1A7160E9001A8D3E /* brian.png */; };
 		CFDA4E071A7160FE001A8D3E /* footer-background-min.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFDA4E061A7160FE001A8D3E /* footer-background-min.jpg */; };
-		D339B2E21BAC9C1C00E9BFF1 /* sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D339B2E11BAC9C1C00E9BFF1 /* sam.jpg */; settings = {ASSET_TAGS = (); }; };
-		D339B2E41BAC9C8500E9BFF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D339B2E31BAC9C8500E9BFF1 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		D33B91641BAC9F4D00714237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33B91631BAC9F4D00714237 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D339B2E21BAC9C1C00E9BFF1 /* sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D339B2E11BAC9C1C00E9BFF1 /* sam.jpg */; };
+		D3B70C521BB8724E00A97A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B70C511BB8724E00A97A74 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +35,7 @@
 		CFDA4DFE1A7160E9001A8D3E /* brian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brian.png; sourceTree = "<group>"; };
 		CFDA4E061A7160FE001A8D3E /* footer-background-min.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "footer-background-min.jpg"; sourceTree = "<group>"; };
 		D339B2E11BAC9C1C00E9BFF1 /* sam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sam.jpg; sourceTree = "<group>"; };
-		D339B2E31BAC9C8500E9BFF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../../vt_ios101v2/Current/For Student/009 - Touch Control/Challenge Finished/TouchExample/Info.plist"; sourceTree = "<group>"; };
-		D33B91631BAC9F4D00714237 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../../vt_ios101v2/Current/For Student/009 - Touch Control/Challenge Finished/TouchExample/ViewController.swift"; sourceTree = "<group>"; };
+		D3B70C511BB8724E00A97A74 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,7 @@
 		CFDA4DD71A716036001A8D3E /* TouchExample */ = {
 			isa = PBXGroup;
 			children = (
-				D339B2E31BAC9C8500E9BFF1 /* Info.plist */,
+				D3B70C511BB8724E00A97A74 /* ViewController.swift */,
 				CFDA4DFA1A7160E9001A8D3E /* ray.png */,
 				CFDA4DFB1A7160E9001A8D3E /* vicki.jpg */,
 				CFDA4DFC1A7160E9001A8D3E /* christine.jpg */,
@@ -79,7 +77,6 @@
 				CFDA4E061A7160FE001A8D3E /* footer-background-min.jpg */,
 				D339B2E11BAC9C1C00E9BFF1 /* sam.jpg */,
 				CFDA4DDA1A716036001A8D3E /* AppDelegate.swift */,
-				D33B91631BAC9F4D00714237 /* ViewController.swift */,
 				CFDA4DDE1A716036001A8D3E /* Main.storyboard */,
 				CFDA4DE11A716036001A8D3E /* Images.xcassets */,
 				CFDA4DE31A716036001A8D3E /* LaunchScreen.xib */,
@@ -163,7 +160,6 @@
 				CFDA4E071A7160FE001A8D3E /* footer-background-min.jpg in Resources */,
 				CFDA4E001A7160E9001A8D3E /* ray.png in Resources */,
 				CFDA4DE21A716036001A8D3E /* Images.xcassets in Resources */,
-				D339B2E41BAC9C8500E9BFF1 /* Info.plist in Resources */,
 				CFDA4E031A7160E9001A8D3E /* mic.jpg in Resources */,
 				CFDA4E021A7160E9001A8D3E /* christine.jpg in Resources */,
 			);
@@ -176,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33B91641BAC9F4D00714237 /* ViewController.swift in Sources */,
+				D3B70C521BB8724E00A97A74 /* ViewController.swift in Sources */,
 				CFDA4DDB1A716036001A8D3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
